@@ -144,9 +144,9 @@
   .program1-img,
   .program2-img,
   .program3-img {
-    width: 100%; /* Adjust image width to 100% of container */
-    max-width: 800px; /* Set maximum width for image */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    max-width: 800px;
+    height: auto;
   }
 
   .program-content h2{
