@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+.lemon-font {
+  font-family: 'Lemon', cursive;
+}
+
+
+#gallery{
+    padding-top: 80px;
+}
+
+#gallery h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.box .dream img{
+    width: 100;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.box .dream img:hover{
+    cursor: pointer;
+    filter: brightness(60%);
+}
+
+
+.button-container{
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 15px;
+}
+
+.button-gallery{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+}
+
+@media (max-width: 769px) {
+    @media (max-width: 769px) {
+        .box {
+            flex-direction: row; /* Change to a single column layout */
+            align-items: center; /* Center items vertically */
+        }
+    
+        .box .dream {
+            width: 90%; /* Adjust width for smaller screens */
+            max-width: 300px; /* Limit width to prevent items from stretching too much */
+            margin-bottom: 20px; /* Add margin between columns */
+        }
+    
+        .box .dream:not(:last-child) {
+            margin-right: 10px; /* Increase margin between columns */
+        }
+    
+        .box .dream img {
+            width: 100%;
+            max-width: 100%; /* Ensure images don't exceed their container */
+            padding-bottom: 15px;
+            border-radius: 5px;
+        }
+    }
+    
+    #gallery h1{
+        font-size: 20px;
+    }
+}

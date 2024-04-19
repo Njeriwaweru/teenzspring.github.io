@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+.lemon-font {
+  font-family: 'Lemon', cursive;
+}
+
+#programs {
+    padding-top: 70px;
+  }
+  
+#programs h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+.program-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+  
+.program1 {
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+    
+  }
+
+.img-container{
+    margin-right: 50px;
+  }
+
+.program1-img {
+    border-radius: 30px;
+    width: 550px;
+    height: 350px;
+  }
+  
+.program-details h2{
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+.program-details p{
+    font-size: 15px;
+    text-align: justify;
+  }
+
+
+.button{
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+  /* Program 2 */
+
+  .program2{
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+  }
+
+.program2-img{
+    border-radius: 30px;
+    order: -1;
+    width: 550px;
+    height: 350px;
+    
+  }
+
+.program2 .program-details{
+    order: 1;
+}
+
+
+/* Program 3 */
+.program3{
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+}
+
+.program3-img{
+    border-radius: 30px;
+    width: 550px;
+    height: 350px;
+}
+
+.program1, .program2, .program3{
+  border: 1px solid rgb(212, 209, 209);
+  border-radius: 5px;
+}
+
+.program2, .program3{
+  margin-top: 15px;
+}
+
+.button-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button-explore{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+}
+ 
+
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+  #programs h1 {
+    font-size: 20px;
+  }
+  .program1,
+  .program2,
+  .program3 {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Adjust padding */
+  }
+
+  .program-details {
+    order: 1; /* Display text first */
+    text-align: center; /* Center text */
+    margin-bottom: 20px; 
+  }
+
+  .img-container {
+    order: 2; /* Display image second */
+    margin-bottom: 20px; /* Add space between text and image */
+  }
+
+  .button {
+    order: 3; /* Display button third */
+  }
+
+  .button-explore {
+    width: 200px; /* Adjust button width */
+    height: 35px; /* Adjust button height */
+  }
+
+  .program1-img,
+  .program2-img,
+  .program3-img {
+    width: 100%; /* Adjust image width to 100% of container */
+    max-width: 800px; /* Set maximum width for image */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .program-content h2{
+    font-size: 20px;
+  }
+}
+
+

@@ -1,0 +1,59 @@
+#hero {
+    padding-top: 20px;
+    height: 600px;
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(60%);
+}
+
+
+.text-overlay{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
+
+button{
+    font-size: 16px;
+    padding: 8px;
+    width: 120px;
+    height: 40px;
+    background-color: #0039A6;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4064a7;
+}
+
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+    #hero {
+        height: 400px;
+        background-size: cover;
+    }
+
+    .text-overlay {
+        top: 30%; /* Adjust position */
+        left: 10%; /* Adjust position */
+        font-size: 20px; /* Adjust font size */
+    }
+
+    button {
+        font-size: 14px; /* Adjust font size */
+        padding: 6px 12px; /* Adjust padding */
+        width: 100px; /* Adjust width */
+        height: 36px; /* Adjust height */
+    }
+}
+
+
