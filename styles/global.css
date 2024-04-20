@@ -15,30 +15,3 @@ body{
 }
 
 
-/* #gradient{
-    position: relative;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(45deg, #f7f4f0, #ffffff, #f2eee6, #f4dcc8);
-    background-size: 300% 300%;
-    animation: color 12s ease-in-out infinite;
-    z-index: 0;
-} */
-
-@keyframes color{
-    0%{
-        background-position: 0 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0 50%;
-    }
-}
-
-
-
-
-

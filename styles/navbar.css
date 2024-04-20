@@ -123,6 +123,15 @@
 
 /* Styles for small screens */
 @media only screen and (max-width: 768px) {
+  .nav-logo{
+    margin-right: 450px;
+}
+
+  .nav-logo p{
+    font-size: 25px;
+    font-weight: 300;
+  }
+
   .nav-menu {
     display: none;
   }
@@ -142,7 +151,7 @@
     position: absolute;
     top: 40px;
     right: 0;
-    background-color: #ffffff;
+    background-color: #f5f2f2;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 7px;
     border-radius: 10px;
@@ -179,5 +188,26 @@
     transform: rotate(45deg) translate(-5px, -5px);
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .nav-logo img{
+    width: 40px;
+    height: 50px;
+}
+
+.nav-logo p{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.nav-menu.show-menu {
+  width: 28%;
+  padding: 5px;
+  background-color: #f5f2f2;
+  gap: 7px;
+  font-size: 13px;
+}
+}
+
 
 

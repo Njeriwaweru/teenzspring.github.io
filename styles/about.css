@@ -74,14 +74,16 @@
     }
 
     .about-content {
-        padding-top: 50px;
+        padding-top: 20px;
         flex-direction: column;
         align-items: center;
     }
 
     .about-content h2 {
         width: auto;
-        font-size: 15px;
+        font-size: 13px;
+        height: 25px;
+        padding-top: 7px;
         margin-bottom: 20px;
     }
 
@@ -97,6 +99,48 @@
 
     .values li {
         font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #about {
+        padding-top: 20px;
+    }
+
+    .about-text h1 {
+        font-size: 15px;
+    }
+
+    .about-text p {
+        font-size: 10px;
+    }
+
+    .about-content {
+        padding-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-content h2 {
+        width: auto;
+        height: 20px;
+        padding-top: 5px;
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+
+    .about-content p {
+        font-size: 9px;
+    }
+
+    .about-img {
+        height: 40px;
+        width: 40px;
+        padding-top: 5px; 
+    }
+
+    .values li {
+        font-size: 10px;
     }
 }
 

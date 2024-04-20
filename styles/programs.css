@@ -5,7 +5,8 @@
 }
 
 #programs {
-    padding-top: 70px;
+    /* padding-top: 70px; */
+    padding: 100px 5px 5px 5px;
   }
   
 #programs h1 {
@@ -115,8 +116,12 @@
 
 /* Adjustments for smaller screens */
 @media only screen and (max-width: 768px) {
+  #programs{
+    padding: 5px;
+  }
+
   #programs h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .program1,
@@ -143,8 +148,15 @@
   }
 
   .button-explore {
-    width: 200px;
-    height: 35px;
+    width: 130px;
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .button-learn {
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
   }
 
   .program1-img,
@@ -153,10 +165,15 @@
     width: 100%;
     max-width: 800px;
     height: auto;
+    margin-left: 20px;
   }
 
   .program-content h2{
-    font-size: 20px;
+    font-size: 15px;
+  }
+
+  .program-content p{
+    font-size: 13px;
   }
 
   .program3{
@@ -164,4 +181,53 @@
   }
 }
 
+@media only screen and (max-width: 320px) {
+  #programs{
+    padding: 5px;
+  }
+
+  #programs h1 {
+    font-size: 14px;
+  }
+
+  .program1,
+  .program2,
+  .program3 {
+    padding: 15px;
+  }
+
+
+  .button-learn {
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .button-explore {
+    width: 100px;
+    height: 40px;
+    font-size: 11px;
+  }
+
+  .program1-img,
+  .program2-img,
+  .program3-img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .program-content h2{
+    font-size: 15px;
+  }
+
+  .program-content p{
+    font-size: 11px;
+  }
+
+  .program3{
+    display: none;
+  }
+}
 
