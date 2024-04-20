@@ -193,6 +193,57 @@
     }
 }
 
+@media (max-width: 480px) {
+    #gallery {
+        padding-top: 15px;
+    }
+
+    #gallery h1 {
+        font-size: 25px;
+    }
+
+    .slider {
+        width: 320px;
+        height: 240px;
+        border-radius: 15px;
+    }
+
+    .slides {
+        width: 200%;
+        height: 480px;
+    }
+
+    .slide {
+        width: 480px;
+    }
+
+    .slide img {
+        width: 320px;
+        height: 240px;
+    }
+
+    /* Adjust position of navigation buttons */
+    .navigation-manual,
+    .navigation-auto {
+        width: 50%;
+        max-width: 50%;
+        margin-top: 220px;
+        margin-left: 40px;
+    }
+
+    .button-container {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .button-gallery {
+        width: 150px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+
+
 @media (max-width: 320px) {
     #gallery{
         padding-top: 15px;

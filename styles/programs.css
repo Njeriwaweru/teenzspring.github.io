@@ -181,6 +181,56 @@
   }
 }
 
+@media only screen and (max-width: 480px) {
+  #programs {
+    padding: 20px 5px 5px 5px;
+  }
+
+  #programs h1 {
+    font-size: 22px;
+  }
+
+  .program1,
+  .program2,
+  .program3 {
+    padding: 40px 10px;
+  }
+
+  .button-explore {
+    width: 130px;
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .button-learn {
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .program1-img,
+  .program2-img,
+  .program3-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .program-details h2 {
+    font-size: 20px;
+  }
+
+  .program-details p {
+    font-size: 14px;
+  }
+
+  .program3 {
+    display: none;
+  }
+}
+
+
 @media only screen and (max-width: 320px) {
   #programs{
     padding: 5px;

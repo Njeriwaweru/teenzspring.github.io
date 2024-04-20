@@ -102,6 +102,38 @@
     }
 }
 
+@media only screen and (max-width: 480px) {
+    /* Styles for screens with a maximum width of 480px (between 768px and 320px) */
+    #about {
+        padding-top: 20px;
+    }
+
+    .about-text h1 {
+        font-size: 18px;
+    }
+
+    .about-text p {
+        font-size: 11px;
+    }
+
+    .about-content {
+        padding-top: 15px;
+    }
+
+    .about-content h2 {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .about-content p {
+        font-size: 9px;
+    }
+
+    .values li {
+        font-size: 11px;
+    }
+}
+
 @media only screen and (max-width: 320px) {
     #about {
         padding-top: 20px;

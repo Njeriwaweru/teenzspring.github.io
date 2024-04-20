@@ -189,6 +189,25 @@
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .nav-logo {
+    margin-right: 300px;
+  }
+
+  .nav-logo p {
+    font-size: 22px;
+  }
+
+  .nav-menu.show-menu {
+    width: 28%;
+    padding: 5px;
+    background-color: #f5f2f2;
+    gap: 7px;
+    font-size: 13px;
+  }
+}
+
+
 @media only screen and (max-width: 320px) {
   .nav-logo img{
     width: 40px;
