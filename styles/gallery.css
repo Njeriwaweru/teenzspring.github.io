@@ -141,10 +141,51 @@
 }
 
 
- @media (max-width: 769px) {
+@media (max-width: 769px) {
     #gallery h1{
         font-size: 20px;
     }
+
+    .slider{
+        width: 500px;
+        height: 300px;
+        border-radius: 20px;
     }
+    
+
+    .slides{
+        width: 500%;
+        height: 500px;
+    }
+
+    .slide {
+        width: 500px;
+    }
+
+    .slide img {
+        width: 500px;
+        height: 300px;
+    }
+
+    /* Adjust position of navigation buttons */
+    .navigation-manual,
+    .navigation-auto {
+        width: 70%;
+        max-width: 90%;
+        margin-top: 280px;
+    }
+
+    .button-container {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .button-gallery {
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+
     
     

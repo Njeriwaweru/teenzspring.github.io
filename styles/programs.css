@@ -118,6 +118,7 @@
   #programs h1 {
     font-size: 20px;
   }
+
   .program1,
   .program2,
   .program3 {
@@ -156,6 +157,10 @@
 
   .program-content h2{
     font-size: 20px;
+  }
+
+  .program3{
+    display: none;
   }
 }
 
