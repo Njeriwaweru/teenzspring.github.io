@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
-body{
-    margin: 0;
-}
 
 .lemon-font {
   font-family: 'Lemon', cursive;
@@ -13,12 +10,8 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* justify-content: space-around; */
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    z-index: 1000;
     height: 70px;
-    padding: 0 20px; /* Add padding to the sides */
-    /* max-width: 100%; */
 }
 
 .nav-logo img{
@@ -37,7 +30,7 @@ body{
     color: #6CB4EE;
     font-size: 30px;
     font-weight: 500;
-    margin: 0; /* Remove margin to prevent extra space */
+    margin: 0;
 }
 
 .nav-menu{
@@ -48,8 +41,6 @@ body{
     font-size: 15px;
     font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0; /* Remove margin to prevent extra space */
-    padding: 0; /* Remove padding to prevent extra space */
     
     
 }
@@ -59,7 +50,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* gap: 3px; */
     cursor: pointer;
     
 }
@@ -100,14 +90,16 @@ body{
   position: absolute;
   top: 22px;
   z-index: 1000;
-  background-color: #d3cece;
-  /* min-width: 0px; */
+  background-color: #f5f2f2;
   border-radius: 15px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding: 10px;
 }
 
 .nav-menu li:hover > .dropdown-content {
   display: block;
+  transition: 0.3s ease-in-out;
 }
 
 .dropdown-content li {
@@ -119,7 +111,6 @@ body{
 .hamburger-menu {
   display: none;
   cursor: pointer;
-  /* z-index: 1100; */
 }
 
 .bar {
@@ -138,9 +129,9 @@ body{
 
   .hamburger-menu {
     display: block;
-    position: absolute; /* Add position property */
-    top: 15px; /* Adjust as needed */
-    right: 15px; /* Adjust as needed */
+    position: absolute;
+    top: 15px;
+    right: 15px;
     z-index: 1100;
   }
 
@@ -164,11 +155,10 @@ body{
     position: relative;
     top: 100%;
     padding-top: 3px;
-    width: 50%; /* Make the dropdown full width */
-    border-radius: 0; /* Remove border radius */
-    border-top: none; 
-    border-bottom: none;
-    background-color: #ffffff;
+    margin: 15px;
+    width: 50%;
+    border-radius: 5px; 
+    background-color: transparent;
   }
 
   .dropdown.dropdown-content {

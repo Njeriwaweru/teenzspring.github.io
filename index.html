@@ -15,6 +15,7 @@
     <title>Teenzspring</title>
 </head>
 <body>
+    <div id="particles-js"></div>
     <!-- Navbar Section -->
     <section id="navbar">
         <div class='nav-logo'>
@@ -55,49 +56,51 @@
     </section>
 
 
-    <!-- About Section -->
-    <section id='about'>
-        <div class='about-text'>
-            <h1 class='lemon-font'>About Us</h1>
-            <p>Teenzspring is an organization aimed to empower teenagers to become <br /> 
-            wholesome adults who would be confident in who they are and consequently <br />
-            inspire them to positively impact their environment.</p>
-    
-        </div>
-           
-            <div class='about-content'>
-                <div class='vision'>
-                    <h2 class='lemon-font'>Our Vision</h2>
-                    <img class='about-img' src='images/vision.png' alt=''/>
-                    <p>To create a culture of  transformed <br /> teenagers.</p>
-    
+            <!-- About Section -->
+            <section id='about'>
+                <div class='about-text'>
+                    <h1 class='lemon-font'>About Us</h1>
+                    <p>Teenzspring is an organization aimed to empower teenagers to become <br /> 
+                    wholesome adults who would be confident in who they are and consequently <br />
+                    inspire them to positively impact their environment.</p>
+            
                 </div>
+                
+                    <div class='about-content'>
+                        <div class='vision'>
+                            <h2 class='lemon-font'>Our Vision</h2>
+                            <img class='about-img' src='images/vision.png' alt=''/>
+                            <p>To create a culture of  transformed <br /> teenagers.</p>
+            
+                        </div>
+            
+                        <div class='mission'>
+                            <h2 class='lemon-font'>Our Mission</h2>
+                            <img class='about-img' src='images/mission.png' alt=''/>
+                            <p>We seek to bring the awareness of <br /> identity and hope in teenagers <br /> stirring up growth and  change.</p>
+            
+                        </div>
+            
+                        <div class='values'>
+                            <h2 class='lemon-font'>Our Values</h2>
+                            <img class='about-img' src='images/values.png' alt=''/>
+                            <p>
+                                <ul>
+                                    <li>Passion</li>
+                                    <li>Creativity and innovation</li>
+                                    <li>Integrity</li>
+                                    <li>Team work</li>
+                                    <li>Dynamic</li>
+                                </ul>
+                            </p>
+            
+                        </div>
+                    </div>
+            </section>
+        
     
-                <div class='mission'>
-                    <h2 class='lemon-font'>Our Mission</h2>
-                    <img class='about-img' src='images/mission.png' alt=''/>
-                    <p>We seek to bring the awareness of <br /> identity and hope in teenagers <br /> stirring up growth and  change.</p>
-    
-                </div>
-    
-                <div class='values'>
-                    <h2 class='lemon-font'>Our Values</h2>
-                    <img class='about-img' src='images/values.png' alt=''/>
-                    <p>
-                        <ul>
-                            <li>Passion</li>
-                            <li>Creativity and innovation</li>
-                            <li>Integrity</li>
-                            <li>Team work</li>
-                            <li>Dynamic</li>
-                        </ul>
-                    </p>
-    
-                </div>
-            </div>
-        </section>
 
-
+    
         <!-- Programs Section -->
         <section id='programs'>
             <h1 class='lemon-font'>Unleash Your Potential: Explore Our <br />Programs For Teens</h1>
@@ -167,31 +170,53 @@
             </div>
     
         </section>
+   
 
-
+    
         <!-- Gallery Section -->
         <section id='gallery'>
             <h1 class='lemon-font'>Gallery</h1>
-            <div class="box">
-                <div class="dream">
-                    <img src="images/banner.png">
-                    <img src="images/program1.png">
-                    <img src="images/program2.png">
-                </div>
 
-                <div class="dream">
-                    <img src="images/program3.png">
-                    <img src="images/banner.png">
-                    <img src="images/program1.png">
+            <div class="images">
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+    
+                        <div class="slide first">
+                            <img src="images/banner.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="images/program2.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="images/program3.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="images/program1.png" alt="">
+                        </div>
+    
+                        <!--Automatic navigation-->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+    
+                        <!-- Manual navigation -->
+                        <div class="navigation-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                            <label for="radio4" class="manual-btn"></label>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="dream">
-                    <img src="images/program2.png">
-                    <img src="images/program3.png">
-                    <img src="images/banner.png">
-                </div>
-
             </div>
+           
     
             <div class='button-container'>
                 <Button class="button-gallery">Explore More Programs</Button>
@@ -199,6 +224,8 @@
             
         </section>
 
+    </section>
+        
 
         <!-- Footer Section -->
         <section id='footer'>
@@ -251,8 +278,27 @@
                     </div>
                 </div>
             </div>
+            <div class="footer-line"></div>
+            <div class="copyright">
+                <p>Copyright &copy; 2024 <span>Teenzspring</span>. All Rights Reserved.</p>
+            </div>
         </section>
 
-        <script src="hamburger.js"></script>
+        
+
+        <script src="js/hamburger.js"></script>
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 4){
+            counter = 1;
+            }
+        },5000);
+        </script>
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>
+        
 </body>
 </html>

@@ -43,16 +43,16 @@ button:hover{
     }
 
     .text-overlay {
-        top: 30%; /* Adjust position */
-        left: 10%; /* Adjust position */
-        font-size: 20px; /* Adjust font size */
+        top: 30%;
+        left: 10%;
+        font-size: 20px;
     }
 
     button {
-        font-size: 14px; /* Adjust font size */
-        padding: 6px 12px; /* Adjust padding */
-        width: 100px; /* Adjust width */
-        height: 36px; /* Adjust height */
+        font-size: 14px;
+        padding: 6px 12px;
+        width: 100px;
+        height: 36px;
     }
 }
 

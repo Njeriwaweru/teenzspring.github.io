@@ -53,6 +53,11 @@
     
 }
 
+.programs-button{
+   margin-top: 40px;
+    text-align: center;
+}
+
   /* Program 2 */
 
   .program2{
@@ -118,27 +123,27 @@
   .program3 {
     flex-direction: column;
     align-items: center;
-    padding: 20px; /* Adjust padding */
+    padding: 20px;
   }
 
   .program-details {
-    order: 1; /* Display text first */
-    text-align: center; /* Center text */
+    order: 1;
+    text-align: center;
     margin-bottom: 20px; 
   }
 
   .img-container {
-    order: 2; /* Display image second */
-    margin-bottom: 20px; /* Add space between text and image */
+    order: 2;
+    margin-bottom: 20px;
   }
 
   .button {
-    order: 3; /* Display button third */
+    order: 3;
   }
 
   .button-explore {
-    width: 200px; /* Adjust button width */
-    height: 35px; /* Adjust button height */
+    width: 200px;
+    height: 35px;
   }
 
   .program1-img,

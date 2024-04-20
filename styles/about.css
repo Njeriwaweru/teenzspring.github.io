@@ -61,41 +61,41 @@
 /* Adjustments for smaller screens */
 @media only screen and (max-width: 768px) {
     #about {
-        padding-top: 20px; /* Adjust padding */
+        padding-top: 20px;
     }
 
     .about-text h1 {
-        font-size: 20px; /* Adjust font size */
+        font-size: 20px;
     }
 
     .about-text p {
-        font-size: 12px; /* Adjust font size */
+        font-size: 12px;
     }
 
     .about-content {
-        padding-top: 50px; /* Adjust padding */
-        flex-direction: column; /* Change flex direction to stack items vertically */
-        align-items: center; /* Center items horizontally */
+        padding-top: 50px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .about-content h2 {
-        width: auto; /* Remove fixed width */
-        font-size: 15px; /* Adjust font size */
-        margin-bottom: 20px; /* Add some space between sections */
+        width: auto;
+        font-size: 15px;
+        margin-bottom: 20px;
     }
 
     .about-content p {
-        font-size: 10px; /* Adjust font size */
+        font-size: 10px;
     }
 
     .about-img {
-        height: 40px; /* Adjust image size */
-        width: 40px; /* Adjust image size */
-        padding-top: 5px; /* Adjust padding */
+        height: 40px;
+        width: 40px;
+        padding-top: 5px; 
     }
 
     .values li {
-        font-size: 12px; /* Adjust font size */
+        font-size: 12px;
     }
 }
 
