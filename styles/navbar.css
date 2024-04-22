@@ -147,14 +147,14 @@
   .nav-menu.show-menu {
     display: flex;
     flex-direction: column;
-    width: 28%;
+    width: 25%;
     position: absolute;
     top: 40px;
     right: 0;
     background-color: #f5f2f2;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 7px;
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 15px;
     z-index: 1200;
     gap: 15px;
   }
