@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #f9f6f3;
     margin: 0;
@@ -15,3 +19,28 @@ body{
 }
 
 
+.scroll{
+    position: fixed;
+    /* bottom: 40px; */
+    right: 24px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    /* background-color: #6cb4ee; */
+    border-radius: 50%;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+}
+
+.scroll span{
+    color: #ffffff;
+    font-size: 30px;
+    transition: 0.3s ease-out;
+}
+
+.scroll:hover{
+    background-color: #36a1f9;
+    transform: translate(2px);
+}
