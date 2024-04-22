@@ -60,7 +60,7 @@ p{
   
     p {
       margin: 10px 0 20px 5px;
-      font-size: 14px;
+      font-size: 12px;
     }
   
     .team-img {
@@ -69,19 +69,32 @@ p{
     }
   
     #our-story h2{
-        font-size: 15px;
+        font-size: 13px;
     }
 
     #our-story h3{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .line {
-      width: 80px;
+      width: 70px;
+      padding-top: 0;
+    }
+
+    .team{
+        margin-left: 1px;
     }
 
     .team-content p{
         font-size: 11.5px;
+    }
+
+    .team-content h3, h2{
+        padding-top: 0;
+    }
+
+    .team3{
+        display: none;
     }
   }
 
