@@ -44,3 +44,14 @@ body{
     background-color: #36a1f9;
     transform: translate(2px);
 }
+
+@media only screen and (max-width: 480px) {
+    .scroll{
+        right: 40px;
+        padding: 8px;
+    }
+
+    .scroll span{
+        font-size: 25px;
+    }
+}
