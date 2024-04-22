@@ -40,14 +40,13 @@ button:hover{
 @media only screen and (max-width: 768px) {
     #hero {
         height: 300px;
-        width: 735px;
         margin: 0 1px;
     }
 
     .text-overlay {
         top: 30%;
-        left: 20%;
-        font-size: 16px;
+        left: 10%;
+        font-size: 18px;
     }
 
     button {
@@ -57,27 +56,6 @@ button:hover{
         height: 36px;
     }
 }
-
-@media only screen and (max-width: 480px) {
-    #hero {
-        height: 250px;
-        margin: 0 1px;
-    }
-
-    .text-overlay {
-        top: 25%;
-        font-size: 14px;
-        left: 15%;
-    }
-
-    button {
-        font-size: 12px;
-        padding: 5px 10px;
-        width: 90px;
-        height: 32px;
-    }
-}
-
 
 @media only screen and (max-width: 320px) {
     #hero {
