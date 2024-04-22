@@ -123,6 +123,10 @@
 
 /* Styles for small screens */
 @media only screen and (max-width: 768px) {
+  #navbar{
+    width: 735px;
+  }
+
   .nav-logo{
     margin-right: 450px;
 }
@@ -140,7 +144,7 @@
     display: block;
     position: absolute;
     top: 15px;
-    right: 15px;
+    right: 45px;
     z-index: 1100;
   }
 

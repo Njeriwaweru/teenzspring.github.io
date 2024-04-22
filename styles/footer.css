@@ -133,6 +133,7 @@ body{
 @media(max-width: 768px){
   #footer{
     padding-top: 5px;
+    width: 735px;
   }
 
   .footer-col h3{

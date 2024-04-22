@@ -45,6 +45,12 @@ body{
     transform: translate(2px);
 }
 
+@media(max-width: 768px){
+    .scroll{
+        right: 40px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     .scroll{
         right: 40px;
