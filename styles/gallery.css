@@ -203,22 +203,22 @@
     }
 
     .slider {
-        width: 355px;
+        width: 287px;
         height: 240px;
         border-radius: 15px;
     }
 
     .slides {
-        width: 200%;
+        width: 300%;
         height: 480px;
     }
 
     .slide {
-        width: 355px;
+        width: 287px;
     }
 
     .slide img {
-        width: 320px;
+        width: 287px;
         height: 240px;
     }
 
@@ -261,12 +261,12 @@
     
 
     .slides{
-        width: 200%;
-        height: 400px;
+        width: 400%;
+        height: 200px;
     }
 
     .slide {
-        width: 400px;
+        width: 300px;
     }
 
     .slide img {
