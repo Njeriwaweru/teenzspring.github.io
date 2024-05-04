@@ -5,8 +5,7 @@
 }
 
 #programs {
-    /* padding-top: 70px; */
-    padding: 100px 5px 5px 5px;
+    padding: 50px 5px 0;
   }
   
 #programs h1 {
@@ -18,12 +17,15 @@
 .program-content p{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    text-align: justify;
+    font-size: 16px;
 }
   
 .program1 {
     display: flex;
     padding: 80px;
     justify-content: space-between;
+    gap: 50px;
     
   }
 
@@ -40,11 +42,6 @@
 .program-details h2{
     font-size: 30px;
     font-weight: 600;
-  }
-
-.program-details p{
-    font-size: 15px;
-    text-align: justify;
   }
 
 
@@ -85,6 +82,7 @@
     display: flex;
     padding: 80px;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .program3-img{
@@ -104,7 +102,7 @@
 
 .button-container{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .button-explore{
@@ -178,9 +176,6 @@
     font-size: 13px;
   }
 
-  .program3{
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -227,9 +222,6 @@
     font-size: 14px;
   }
 
-  .program3 {
-    display: none;
-  }
 }
 
 
@@ -278,8 +270,5 @@
     font-size: 11px;
   }
 
-  .program3{
-    display: none;
-  }
 }
 
