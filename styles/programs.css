@@ -211,7 +211,6 @@
     width: 100%;
     max-width: 100%;
     height: auto;
-    margin-left: 0;
   }
 
   .program-details h2 {
@@ -219,7 +218,7 @@
   }
 
   .program-details p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
 }
