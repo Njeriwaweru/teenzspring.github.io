@@ -85,10 +85,10 @@
         align-items: center;
     }
 
-    .about-content h2 {
-        width: auto;
+    .about-btn{
+        width: 150px;
         font-size: 13px;
-        height: 25px;
+        height: 35px;
         padding-top: 7px;
         margin-bottom: 20px;
     }
@@ -127,9 +127,9 @@
         padding-top: 15px;
     }
 
-    .about-content h2 {
+    .about-btn {
         font-size: 12px;
-        margin-bottom: 15px;
+        /* margin-bottom: 15px; */
     }
 
     .about-content p {
@@ -160,12 +160,11 @@
         align-items: center;
     }
 
-    .about-content h2 {
+    .about-btn {
         width: auto;
-        height: 20px;
+        height: 30px;
         padding-top: 5px;
         font-size: 10px;
-        margin-bottom: 15px;
     }
 
     .about-content p {
