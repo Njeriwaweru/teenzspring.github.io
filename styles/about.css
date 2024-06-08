@@ -133,10 +133,12 @@
     }
 
     .about-content p {
-        font-size: 9px;
+        font-weight: bold;
+        font-size: 11px;
     }
 
     .values li {
+        font-weight: bold;
         font-size: 11px;
     }
 }
